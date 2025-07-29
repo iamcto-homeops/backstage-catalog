@@ -1,9 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
+
 metadata:
   name: host-bitrix-denum-ru
-  description: Stores artist details
+  description: Host VM to provide compute resources for the system
+
 spec:
   type: host-vm
   owner: infra-ops
   system: invest-denum-ru
+  parfOf:
+    - system:invest-denum-ru

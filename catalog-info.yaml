@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: home-ops
+  name: denum
 spec:
   type: url
   targets:
@@ -9,3 +9,4 @@ spec:
     - https://github.com/iamcto-homeops/backstage-catalog/blob/main/systems/invest-denum-ru/catalog-info.yaml
     - https://github.com/iamcto-homeops/backstage-catalog/blob/main/resources/bitrix-denum-ru/catalog-info.yaml
     - https://github.com/iamcto-homeops/backstage-catalog/blob/main/components/traefik/catalog-info.yaml
+    - https://github.com/iamcto-homeops/backstage-catalog/blob/main/components/mariadb/catalog-info.yaml
