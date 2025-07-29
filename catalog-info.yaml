@@ -13,7 +13,7 @@ spec:
     - https://github.com/iamcto-homeops/backstage-catalog/blob/main/components/bitrix-crm/catalog-info.yaml
     - https://github.com/iamcto-homeops/backstage-catalog/blob/main/components/docker/catalog-info.yaml
     - https://github.com/iamcto-homeops/backstage-catalog/blob/main/components/gitlab-runner/catalog-info.yaml
-    - https://github.com/iamcto-homeops/backstage-catalog/blob/main/components/graphana/catalog-info.yaml
+    - https://github.com/iamcto-homeops/backstage-catalog/blob/main/components/grafana/catalog-info.yaml
     - https://github.com/iamcto-homeops/backstage-catalog/blob/main/components/integration-omega/catalog-info.yaml
     - https://github.com/iamcto-homeops/backstage-catalog/blob/main/components/loki/catalog-info.yaml
     - https://github.com/iamcto-homeops/backstage-catalog/blob/main/components/mariadb/catalog-info.yaml
