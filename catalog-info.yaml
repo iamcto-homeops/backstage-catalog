@@ -8,3 +8,4 @@ spec:
     - https://github.com/iamcto-homeops/backstage-catalog/blob/main/domains/denum/catalog-info.yaml
     - https://github.com/iamcto-homeops/backstage-catalog/blob/main/systems/invest-denum-ru/catalog-info.yaml
     - https://github.com/iamcto-homeops/backstage-catalog/blob/main/resources/bitrix-denum-ru/catalog-info.yaml
+    - https://github.com/iamcto-homeops/backstage-catalog/blob/main/components/traefik/catalog-info.yaml
