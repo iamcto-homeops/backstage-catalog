@@ -5,4 +5,6 @@ metadata:
 spec:
   type: url
   targets:
-    - https://gitlab.com/iamcto/homelab/-/blob/main/.backstage/domains/denum/catalog-info.yaml
+    - https://github.com/iamcto-homeops/backstage-catalog/blob/main/domains/denum/catalog-info.yaml
+    - https://github.com/iamcto-homeops/backstage-catalog/blob/main/systems/invest-denum-ru/catalog-info.yaml
+    - https://github.com/iamcto-homeops/backstage-catalog/blob/main/resources/bitrix-denum-ru/catalog-info.yaml
