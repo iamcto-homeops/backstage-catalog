@@ -1,0 +1,30 @@
+---
+# yaml-language-server: $schema=https://json.schemastore.org/catalog-info.json
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: traefik
+  description: A modern HTTP reverse proxy and load balancer that makes deploying easy
+  links:
+    - url: https://gitlab.com/denum/bitrix-infra/-/blob/main/docker-compose/traefik.yml
+      title: Docker compose definition
+      icon: github
+      type: github-repository
+    - url: https://github.com/traefik/traefik/
+      title: GitHub
+      icon: github
+      type: github-repository
+    - url: https://doc.traefik.io/traefik/
+      title: Documentation
+      icon: docs
+      type: documentation
+  tags:
+    - network
+    - ingress
+spec:
+  type: service
+  lifecycle: production
+  system: talos-flux
+  owner: home-ops
+  dependsOn:
+    - component:cert-manager
