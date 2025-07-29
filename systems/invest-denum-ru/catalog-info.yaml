@@ -3,24 +3,33 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: nas
-  description: Synology DS920+
+  name: invest-denum-ru
+  description: Личный кабинет инвестора
   annotations:
     backstage.io/techdocs-ref: dir:.
     # github.com/project-slug: tyriis/home-ops
+  
   links:
-    - url: https://synology-nas.iamcto.ru
-      title: nas
+    - url: https://invest.denum.ru
+      title: Website
       icon: dashboard
       type: admin-dashboard
+
+    - url: https://gitlab.com/denum/invest-denum-ru
+      title: Gitlab Repo
+      icon: github
+      type: github-repository
+
+    - url: https://gitlab.com/denum/invest-denum-ru/-/blob/main/docker-compose.yml
+      title: Docker Compose definition
+      icon: github
+      type: github-repository
+
   tags:
-    - nas
-    - nfs
-    - backup
-    - storage
+    - bitrix
+    - web
+
 spec:
-  owner: home-ops
-  domain: home
-  type: storage
+  owner: infra-ops
+  domain: denum
   lifecycle: production
-  system: nas
