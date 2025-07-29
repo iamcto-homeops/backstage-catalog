@@ -1,0 +1,37 @@
+---
+# yaml-language-server: $schema=https://json.schemastore.org/catalog-info.json
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: loki
+  description: Log aggregation service
+  
+  links:
+    - url: https://gitlab.com/denum/bitrix-infra/-/blob/main/docker-compose/loki.yml
+      title: Docker Compose definition
+      icon: gitlab
+      type: gitlab-repository
+    - url: https://gitlab.com/denum/bitrix-infra/-/tree/main/config/loki
+      title: Configuration files
+      icon: gitlab
+      type: gitlab-repository
+    - url: https://github.com/mariadb
+      title: GitHub
+      icon: github
+      type: github-repository
+    - url: https://mariadb.com/docs
+      title: Documentation
+      icon: docs
+      type: documentation
+  
+  tags:
+    - logs
+    - infrastructure
+
+spec:
+  type: database
+  lifecycle: production
+  system: invest-denum-ru
+  owner: home-ops
+  parfOf:
+      - system:invest-denum-ru

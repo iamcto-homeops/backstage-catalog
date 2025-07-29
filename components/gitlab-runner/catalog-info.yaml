@@ -3,8 +3,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: traefik-lk
-  description: A modern HTTP reverse proxy and load balancer that makes deploying easy
+  name: gitlab-runner-lk
+  description: Gitlab Runner to automate deployments
   links:
     - url: https://gitlab.com/denum/bitrix-infra/-/blob/main/docker-compose/traefik.yml
       title: Docker Compose definition
@@ -22,9 +22,11 @@ metadata:
       title: Documentation
       icon: docs
       type: documentation
+  
   tags:
-    - network
-    - ingress
+    - cicd
+
+
 spec:
   type: service
   lifecycle: production

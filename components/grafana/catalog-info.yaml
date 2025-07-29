@@ -3,8 +3,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: traefik-lk
-  description: A modern HTTP reverse proxy and load balancer that makes deploying easy
+  name: grafana-lk
+  description: Observability platform
   links:
     - url: https://gitlab.com/denum/bitrix-infra/-/blob/main/docker-compose/traefik.yml
       title: Docker Compose definition
@@ -23,8 +23,12 @@ metadata:
       icon: docs
       type: documentation
   tags:
-    - network
-    - ingress
+    - omega
+    - api
+    - graphql
+    - php
+    - laravel
+
 spec:
   type: service
   lifecycle: production
