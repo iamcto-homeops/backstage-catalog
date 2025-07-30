@@ -3,7 +3,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: bitrix-24
+  name: bitrix-crm
   description: CRM system
   links:
     - url: https://gitlab.com/denum/bitrix-infra/-/blob/main/docker-compose/traefik.yml
@@ -34,3 +34,8 @@ spec:
   owner: home-ops
   parfOf:
     - system:invest-denum-ru
+  dependsOn:
+    - component:maria-db
+    - component:minio-lk
+    - component:integration-omega-api
+    - component:pdf-crypto-stamp
