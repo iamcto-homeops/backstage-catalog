@@ -38,3 +38,7 @@ spec:
   owner: home-ops
   parfOf:
       - system:invest-denum-ru
+  dependsOn:
+    - component:maria-db
+    - component:minio-lk
+    - component:loki-lk
